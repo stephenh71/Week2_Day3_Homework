@@ -1,0 +1,17 @@
+CodeClan homework wk3_Day3
+
+1. How similar was your plan to the final program? Did you have to digress from your plan as the program developed?
+
+Reasonably similar.  Plan did accurately scope out classes and their features and functions. Learning Points :- 1) We didn’t scope out each function in enough detail in the plan. Particularly its inputs (and where it got these from) and what each function returned.  Towards the end we were getting slightly lost in the flow.  2) We didn’t adhere closely enough to the brief and ended up trying to write an all singing, all dancing Snowman from the start rather than taking a more modular approach in prioritising workflows.
+
+2. Does each of your classes follow the Single Responsibility principle? Or are any of your classes doing too much?
+
+Pretty much - all look as if they are performing the correct functions.  The brief was very helpful in this respect and gave significant clues.
+
+3. Did you practice TDD?
+
+At the early stages - yes.  When it came to the more complex functions we found ourselves moving onto related functions without having fully completed and tested each one.  This was a mistake. We also wrote some of the word guess logic functions “independent” of the main program (and individually rather than in a pair to try to save time).  This was also a mistake - 1) we got ahead of ourselves in the main program without having completed these stages and this gave us difficulties as we didn’t have clarity on all returns - 2) whilst we did test before we imported the offline elements, the testing we did “offline” was difficult to replicate online.
+
+4. Are each of your methods tested? Did you find anything difficult to test?
+
+All tested (as far as we reached in the time-frame).  Some of our testing could have been more detailed, for example we compared lengths of strings to array counts when we could/should actually have tested the contents matched expectation.
